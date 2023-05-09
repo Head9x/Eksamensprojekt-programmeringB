@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Eksamensprojekt.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Eksamensprojekt"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title="Next Sukkertoppen"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+    <ShellContent
+      Title="BygningerPage"
+      ContentTemplate="{DataTemplate local:SecondPage}"
+      Route="SecondPage" />
+
+    <ShellContent
+      Title="KortPage"
+      ContentTemplate="{DataTemplate local:KortPage}"
+      Route="KortPage" />
+
+    <ShellContent
+      Title="LokalePage"
+      ContentTemplate="{DataTemplate local:LokalePage}"
+      Route="LokalePage" />
+
+</Shell>
